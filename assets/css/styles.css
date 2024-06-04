@@ -4,11 +4,25 @@
 
 }
 
-#navbarNav{
-    font-family: fantasy;
-    font-size: large;
-    max-width: 1500px;
-    min-width: 100px;
-    display: flex;
 
+.imagen-1, .imagen-2, .imagen-3 {
+    width: 100vw;
+    height: 650px;
 }
+
+#carouselExampleCaptions {
+    width: 100%;
+}
+
+
+.producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .producto img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
